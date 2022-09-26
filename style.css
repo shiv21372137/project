@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+}
+
+.countner {
+    background: linear-gradient(to left, red, white);
+    width: 1520px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+
+nav>ul {
+    display: flex;
+    color: black;
+
+
+}
+
+nav>ul>li {
+    padding: 20px 30px;
+    list-style: none;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+
+}
+
+nav>ul>li>a:hover {
+    color: rgb(103, 250, 5);
+    transition: 0.3s;
+
+}
+
+main {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    background-image: url(img1/n2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+img {
+    height: 90px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding-bottom: 10px;
+
+}
+
+.left {
+    height: 550px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    margin-left: 150px;
+
+
+
+}
+
+.card {
+    text-align: center;
+
+
+
+}
+
+h1 {
+    color: aliceblue;
+    padding-bottom: 10px; text-decoration-line: underline green;
+    text-decoration-line:
+}
+
+input {
+    padding: 12px;
+    font-size: 12px;
+
+}
+
+button {
+    height: 40px;
+    width: 85px;
+    margin-left: 7px;
+    margin-right: 8px;
+    background-color: rgb(236, 145, 236);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+button:hover {
+    background-color: crimson;
+    transition: 0.5s;
+
+
+
+}
+
+.right {
+    height: 550px;
+    width: 800px;
+    display: flex;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    margin-left: 20px;
+
+}
+
+.right h1 {color: rgb(240, 245, 235); margin-top: 175px; margin-left: 100px; font-size: 40px;
+    
+    
+}
+p{margin-top: 250px; margin-right: 150px; color: white; font-size: 25px;
+
+}
+.page{width: 100%; height: 1000px; background-color: cornflowerblue; margin-top: 20px;
+
+
+
+}
+.cart2{width: 20%; height: 400px; background-color: crimson; margin-left: 100px;
+
+
+
+
+}
+.image{background-image: url(img1/n4.jpg);width: 100%; height: 250px; background-size: cover; background-repeat: no-repeat;
+
+
+}
+.image h3{ padding-top: 260px; color: white; margin: auto; text-align: center;
+
+}
+
